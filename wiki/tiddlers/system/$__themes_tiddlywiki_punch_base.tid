@@ -1,0 +1,118 @@
+tags: $:/tags/Stylesheet
+title: $:/themes/tiddlywiki/punch/base
+
+\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline
+
+@media screen {
+
+@media (min-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}) {
+
+	body.tc-body .tc-story-river {
+		padding: 0;
+	}
+
+}
+
+body.tc-body .tc-tiddler-frame {
+	border: 0;
+	margin-bottom: 0;
+	min-height: 1000px;
+}
+
+body.tc-body .tc-tiddler-frame > a {
+	text-decoration: none;
+	color: <<color foreground>>;
+}
+
+body.tc-body .tc-tiddler-frame .tc-tiddler-body {
+	text-align: center;
+	max-width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -70px;
+}
+
+body.tc-body .tc-tiddler-frame .tc-tiddler-body ul,
+body.tc-body .tc-tiddler-frame .tc-tiddler-body ol,
+body.tc-body .tc-tiddler-frame .tc-tiddler-body p {
+	font-size: 27px;
+	line-height: 1.5;
+}
+
+body.tc-body .tc-tiddler-frame .tc-tiddler-body ul,
+body.tc-body .tc-tiddler-frame .tc-tiddler-body ol {
+	text-align: left;
+}
+
+body.tc-body .tc-tiddler-frame .tc-tiddler-body pre, body.tc-body .tc-tiddler-frame .tc-tiddler-body code {
+	font-size: 18px;
+	text-align: left;
+	background: #121;
+	color: #fff;
+}
+
+body.tc-body .tc-tiddler-controls button svg {
+	width: 20px;
+	height: 20px;
+}
+
+body.tc-body .tc-tiddler-view-frame .tc-titlebar, body.tc-body .tc-tiddler-view-frame .tc-topbar {
+	<<transition "opacity 200ms ease-in-out">>
+	opacity: 0;
+}
+
+body.tc-body .tc-tiddler-view-frame .tc-titlebar:hover, body.tc-body .tc-tiddler-view-frame .tc-topbar:hover {
+	opacity: 1;
+}
+
+body.tc-body .tc-tiddler-view-frame .tc-titlebar {
+	font-size: 20px;
+}
+
+body.tc-body .tc-tiddler-view-frame .tc-titlebar h2 {
+	font-size: 10px;
+}
+
+body.tc-body .tc-tiddler-view-frame .tc-subtitle, body.tc-body .tc-tiddler-view-frame .tc-tags-wrapper {
+	display: none;
+}
+
+body.tc-body h1 {
+	font-weight: 700;
+	font-size: 60px;
+}
+
+body.tc-body h2, body.tc-body h3, body.tc-body h4 {
+	font-weight: 400;
+}
+
+body.tc-body h2 {
+	font-size: 35px;
+}
+
+body.tc-body h3 {
+	font-size: 24px;
+}
+
+body.tc-body .tc-tiddler-frame .tc-tiddler-body .tc-diatribe {
+	max-height:85vh;
+	-moz-columns:3;
+	-webkit-columns:3;
+	columns:3;
+	font-size: 10px;
+}
+
+
+body.tc-body .tc-tiddler-frame .tc-tiddler-body .tc-diatribe p {
+	margin: 0 0 0.5em 0;
+}
+
+body.tc-body .tc-tiddler-frame .tc-tiddler-body .tc-diatribe ul,
+body.tc-body .tc-tiddler-frame .tc-tiddler-body .tc-diatribe ol,
+body.tc-body .tc-tiddler-frame .tc-tiddler-body .tc-diatribe p {
+	font-size: 10px;
+	text-align: left;
+}
+
+} /* @media screen */
+
