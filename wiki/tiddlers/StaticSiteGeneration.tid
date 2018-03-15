@@ -1,0 +1,22 @@
+background-color: #e7d3d8
+created: 20180315134634369
+modified: 20180315134634369
+title: StaticSiteGeneration
+type: text/vnd.tiddlywiki
+
+! Static Site Generation
+
+```
+tiddlywiki ./myWiki \
+--rendertiddler $:/core/templates/static.template.html static.html text/plain \
+--rendertiddler $:/core/templates/alltiddlers.template.html alltiddlers.html text/plain \
+--rendertiddlers [!is[system]] $:/core/templates/static.tiddler.html static text/plain \
+--rendertiddler $:/core/templates/static.template.css static/static.css text/plain
+```
+
+[ext[static.html|http://tiddlywiki.com/static.html]]
+
+[ext[alltiddlers.html|http://tiddlywiki.com/alltiddlers.html]]
+
+[ext[static/AllTiddlers.html|http://tiddlywiki.com/static/AllTiddlers.html]]
+

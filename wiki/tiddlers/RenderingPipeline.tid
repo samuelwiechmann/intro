@@ -1,0 +1,12 @@
+background-color: #FF9563
+created: 20180315134634404
+modified: 20180315134634404
+title: RenderingPipeline
+type: text/vnd.tiddlywiki
+
+! ~TiddlyWiki Rendering Pipeline
+
+{{TiddlyWiki Architecture.svg}}
+
+Like Angular and Ractive. Not string based; always uses a DOM and selective updating.
+

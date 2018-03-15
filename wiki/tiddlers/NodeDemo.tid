@@ -1,0 +1,32 @@
+background-color: #FF7575
+created: 20180315134634419
+modified: 20180315134634419
+title: NodeDemo
+type: text/vnd.tiddlywiki
+
+! Demo 4: Node.js
+
+!! Installation
+
+```
+sudo npm install -g tiddlywiki
+```
+
+!! Import single file wiki into a wiki folder
+
+```
+tiddlywiki MyWiki --init server
+tiddlywiki MyWiki --load ~/path/to/wiki.html
+```
+
+!! Client Server Mode
+
+```
+tiddlywiki MyWiki --server
+```
+
+!! Static Site Generation
+
+```
+tiddlywiki MyWiki --rendertiddlers [!is[system]] $:/core/templates/static.tiddler.html static text/plain
+```

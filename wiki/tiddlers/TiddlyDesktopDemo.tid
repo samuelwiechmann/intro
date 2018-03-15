@@ -1,0 +1,11 @@
+background-color: #A7FF7B
+created: 20180315134634347
+modified: 20180315134634347
+title: TiddlyDesktopDemo
+type: text/vnd.tiddlywiki
+
+! Demo 3: ~TiddlyDesktop
+
+* Run ~TiddlyDesktop, open demo wiki
+* Show wikilist, saving, control panel, help
+* Open backstage wiki, explore

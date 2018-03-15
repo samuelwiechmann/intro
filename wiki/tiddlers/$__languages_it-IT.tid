@@ -1,0 +1,862 @@
+author: MaurizioPollio
+core-version: >=5.0.8
+created: 20180315134634189
+dependents: 
+description: Italian (Italy)
+modified: 20180315134634189
+name: it-IT
+plugin-type: language
+title: $:/languages/it-IT
+type: application/json
+version: 5.1.9-prerelease
+
+{
+    "tiddlers": {
+        "$:/language/ControlPanel/Advanced/Caption": {
+            "title": "$:/language/ControlPanel/Advanced/Caption",
+            "text": "Avanzate"
+        },
+        "$:/language/ControlPanel/Advanced/Hint": {
+            "title": "$:/language/ControlPanel/Advanced/Hint",
+            "text": "Informazioni interne di questo ~TiddlyWiki"
+        },
+        "$:/language/ControlPanel/Appearance/Caption": {
+            "title": "$:/language/ControlPanel/Appearance/Caption",
+            "text": "Aspetto"
+        },
+        "$:/language/ControlPanel/Appearance/Hint": {
+            "title": "$:/language/ControlPanel/Appearance/Hint",
+            "text": "Personalizza l'aspetto di TiddlyWiki"
+        },
+        "$:/language/ControlPanel/Basics/AnimDuration/Prompt": {
+            "title": "$:/language/ControlPanel/Basics/AnimDuration/Prompt",
+            "text": "Durata animazione:"
+        },
+        "$:/language/ControlPanel/Basics/Caption": {
+            "title": "$:/language/ControlPanel/Basics/Caption",
+            "text": "Impostazioni base"
+        },
+        "$:/language/ControlPanel/Basics/DefaultTiddlers/BottomHint": {
+            "title": "$:/language/ControlPanel/Basics/DefaultTiddlers/BottomHint",
+            "text": "Utilizza &#91;&#91;le doppie parentesi quadre&#93;&#93; per titoli di frammenti con spazi bianchi. In alternativa scegli di visualizzare i frammenti secondo la <$button set=\"$:/DefaultTiddlers\" setTo=\"[list[$:/StoryList]]\">cronologia</$button>"
+        },
+        "$:/language/ControlPanel/Basics/DefaultTiddlers/Prompt": {
+            "title": "$:/language/ControlPanel/Basics/DefaultTiddlers/Prompt",
+            "text": "Frammenti di default:"
+        },
+        "$:/language/ControlPanel/Basics/DefaultTiddlers/TopHint": {
+            "title": "$:/language/ControlPanel/Basics/DefaultTiddlers/TopHint",
+            "text": "Scegli quali frammenti vuoi visualizzare all'avvio:"
+        },
+        "$:/language/ControlPanel/Basics/Language/Prompt": {
+            "title": "$:/language/ControlPanel/Basics/Language/Prompt",
+            "text": "Ciao! Scegli la lingua:"
+        },
+        "$:/language/ControlPanel/Basics/OverriddenShadowTiddlers/Prompt": {
+            "title": "$:/language/ControlPanel/Basics/OverriddenShadowTiddlers/Prompt",
+            "text": "Numero di frammenti nascosti annullati:"
+        },
+        "$:/language/ControlPanel/Basics/ShadowTiddlers/Prompt": {
+            "title": "$:/language/ControlPanel/Basics/ShadowTiddlers/Prompt",
+            "text": "Numero di frammenti nascosti:"
+        },
+        "$:/language/ControlPanel/Basics/Subtitle/Prompt": {
+            "title": "$:/language/ControlPanel/Basics/Subtitle/Prompt",
+            "text": "Sottotitolo:"
+        },
+        "$:/language/ControlPanel/Basics/SystemTiddlers/Prompt": {
+            "title": "$:/language/ControlPanel/Basics/SystemTiddlers/Prompt",
+            "text": "Numero di frammenti di sistema:"
+        },
+        "$:/language/ControlPanel/Basics/Tags/Prompt": {
+            "title": "$:/language/ControlPanel/Basics/Tags/Prompt",
+            "text": "Numero di categorie:"
+        },
+        "$:/language/ControlPanel/Basics/Tiddlers/Prompt": {
+            "title": "$:/language/ControlPanel/Basics/Tiddlers/Prompt",
+            "text": "Numero di frammenti:"
+        },
+        "$:/language/ControlPanel/Basics/Title/Prompt": {
+            "title": "$:/language/ControlPanel/Basics/Title/Prompt",
+            "text": "Il titolo di questo ~TiddlyWiki:"
+        },
+        "$:/language/ControlPanel/Basics/Username/Prompt": {
+            "title": "$:/language/ControlPanel/Basics/Username/Prompt",
+            "text": "Digita il nome con cui firmare le modifiche:"
+        },
+        "$:/language/ControlPanel/Basics/Version/Prompt": {
+            "title": "$:/language/ControlPanel/Basics/Version/Prompt",
+            "text": "Versione di ~TiddlyWiki:"
+        },
+        "$:/language/ControlPanel/LoadedModules/Caption": {
+            "title": "$:/language/ControlPanel/LoadedModules/Caption",
+            "text": "Moduli caricati"
+        },
+        "$:/language/ControlPanel/LoadedModules/Hint": {
+            "title": "$:/language/ControlPanel/LoadedModules/Hint",
+            "text": "Elenco dei moduli attualmente caricati e loro collegamento ai frammenti sorgente. I moduli in corsivo mancano di un frammento sorgente perch&eacute; in generale installati durante il processo di avvio."
+        },
+        "$:/language/ControlPanel/Palette/Caption": {
+            "title": "$:/language/ControlPanel/Palette/Caption",
+            "text": "Tavolozza"
+        },
+        "$:/language/ControlPanel/Palette/Editor/Clone/Caption": {
+            "title": "$:/language/ControlPanel/Palette/Editor/Clone/Caption",
+            "text": "Clona"
+        },
+        "$:/language/ControlPanel/Palette/Editor/Clone/Prompt": {
+            "title": "$:/language/ControlPanel/Palette/Editor/Clone/Prompt",
+            "text": "Si consiglia di clonare questa tavolozza prima di modificarla"
+        },
+        "$:/language/ControlPanel/Palette/Editor/Prompt/Modified": {
+            "title": "$:/language/ControlPanel/Palette/Editor/Prompt/Modified",
+            "text": "Questa tavolozza &egrave; stata modificata"
+        },
+        "$:/language/ControlPanel/Palette/Editor/Prompt": {
+            "title": "$:/language/ControlPanel/Palette/Editor/Prompt",
+            "text": "Modifica"
+        },
+        "$:/language/ControlPanel/Palette/Editor/Reset/Caption": {
+            "title": "$:/language/ControlPanel/Palette/Editor/Reset/Caption",
+            "text": "Reset"
+        },
+        "$:/language/ControlPanel/Palette/HideEditor/Caption": {
+            "title": "$:/language/ControlPanel/Palette/HideEditor/Caption",
+            "text": "Nascondi editor"
+        },
+        "$:/language/ControlPanel/Palette/Prompt": {
+            "title": "$:/language/ControlPanel/Palette/Prompt",
+            "text": "Tavolozza corrente:"
+        },
+        "$:/language/ControlPanel/Palette/ShowEditor/Caption": {
+            "title": "$:/language/ControlPanel/Palette/ShowEditor/Caption",
+            "text": "Mostra editor"
+        },
+        "$:/language/ControlPanel/Plugins/Caption": {
+            "title": "$:/language/ControlPanel/Plugins/Caption",
+            "text": "Plugins"
+        },
+        "$:/language/ControlPanel/Plugins/Language/Prompt": {
+            "title": "$:/language/ControlPanel/Plugins/Language/Prompt",
+            "text": "Linguaggi"
+        },
+        "$:/language/ControlPanel/Plugins/Plugin/Prompt": {
+            "title": "$:/language/ControlPanel/Plugins/Plugin/Prompt",
+            "text": "Plugins"
+        },
+        "$:/language/ControlPanel/Plugins/Theme/Prompt": {
+            "title": "$:/language/ControlPanel/Plugins/Theme/Prompt",
+            "text": "Temi"
+        },
+        "$:/language/ControlPanel/Saving/Caption": {
+            "title": "$:/language/ControlPanel/Saving/Caption",
+            "text": "Salvataggio"
+        },
+        "$:/language/ControlPanel/Saving/Heading": {
+            "title": "$:/language/ControlPanel/Saving/Heading",
+            "text": "Salvataggio"
+        },
+        "$:/language/ControlPanel/Saving/TiddlySpot/Advanced/Heading": {
+            "title": "$:/language/ControlPanel/Saving/TiddlySpot/Advanced/Heading",
+            "text": "Impostazioni avanzate"
+        },
+        "$:/language/ControlPanel/Saving/TiddlySpot/BackupDir": {
+            "title": "$:/language/ControlPanel/Saving/TiddlySpot/BackupDir",
+            "text": "Directory di backup"
+        },
+        "$:/language/ControlPanel/Saving/TiddlySpot/Backups": {
+            "title": "$:/language/ControlPanel/Saving/TiddlySpot/Backups",
+            "text": "Backups"
+        },
+        "$:/language/ControlPanel/Saving/TiddlySpot/Filename": {
+            "title": "$:/language/ControlPanel/Saving/TiddlySpot/Filename",
+            "text": "Nome del file di upload"
+        },
+        "$:/language/ControlPanel/Saving/TiddlySpot/Heading": {
+            "title": "$:/language/ControlPanel/Saving/TiddlySpot/Heading",
+            "text": "~TiddlySpot"
+        },
+        "$:/language/ControlPanel/Saving/TiddlySpot/Hint": {
+            "title": "$:/language/ControlPanel/Saving/TiddlySpot/Hint",
+            "text": "//L'indirizzo del server di default &egrave; `http://<wikiname>.tiddlyspot.com/store.cgi` e pu&ograve; essere modificato per utilizzare un indirizzo server personalizzato//"
+        },
+        "$:/language/ControlPanel/Saving/TiddlySpot/Password": {
+            "title": "$:/language/ControlPanel/Saving/TiddlySpot/Password",
+            "text": "Password"
+        },
+        "$:/language/ControlPanel/Saving/TiddlySpot/ServerURL": {
+            "title": "$:/language/ControlPanel/Saving/TiddlySpot/ServerURL",
+            "text": "Indirizzo server"
+        },
+        "$:/language/ControlPanel/Saving/TiddlySpot/UploadDir": {
+            "title": "$:/language/ControlPanel/Saving/TiddlySpot/UploadDir",
+            "text": "Directory di upload"
+        },
+        "$:/language/ControlPanel/Saving/TiddlySpot/UserName": {
+            "title": "$:/language/ControlPanel/Saving/TiddlySpot/UserName",
+            "text": "Nome Wiki"
+        },
+        "$:/language/ControlPanel/Settings/AutoSave/Caption": {
+            "title": "$:/language/ControlPanel/Settings/AutoSave/Caption",
+            "text": "Salvataggio automatico"
+        },
+        "$:/language/ControlPanel/StoryView/Caption": {
+            "title": "$:/language/ControlPanel/StoryView/Caption",
+            "text": "Vista"
+        },
+        "$:/language/ControlPanel/StoryView/Prompt": {
+            "title": "$:/language/ControlPanel/StoryView/Prompt",
+            "text": "Vista corrente:"
+        },
+        "$:/language/ControlPanel/Theme/Caption": {
+            "title": "$:/language/ControlPanel/Theme/Caption",
+            "text": "Tema"
+        },
+        "$:/language/ControlPanel/Theme/Prompt": {
+            "title": "$:/language/ControlPanel/Theme/Prompt",
+            "text": "Tema corrente:"
+        },
+        "$:/language/ControlPanel/TiddlerFields/Caption": {
+            "title": "$:/language/ControlPanel/TiddlerFields/Caption",
+            "text": "Campi frammenti"
+        },
+        "$:/language/ControlPanel/TiddlerFields/Hint": {
+            "title": "$:/language/ControlPanel/TiddlerFields/Hint",
+            "text": "Questa &egrave; la serie completa dei TiddlerFields utilizzati in questo wiki (sono inclusi i frammenti di sistema ed esclusi i frammenti nascosti)."
+        },
+        "$:/language/ControlPanel/Tools/Download/Full/Caption": {
+            "title": "$:/language/ControlPanel/Tools/Download/Full/Caption",
+            "text": "Scarica l'intero wiki"
+        },
+        "$:/core/it-IT/readme": {
+            "title": "$:/core/it-IT/readme",
+            "text": "<!-- Replace with translation of the readme for the core plugin -->\n\n{{$:/core/readme}}\n"
+        },
+        "$:/language/Docs/ModuleTypes/animation": {
+            "title": "$:/language/Docs/ModuleTypes/animation",
+            "text": "Animazioni che possono essere utilizzate con RevealWidget."
+        },
+        "$:/language/Docs/ModuleTypes/command": {
+            "title": "$:/language/Docs/ModuleTypes/command",
+            "text": "Comandi che possono essere eseguiti sotto Node.js."
+        },
+        "$:/language/Docs/ModuleTypes/config": {
+            "title": "$:/language/Docs/ModuleTypes/config",
+            "text": "Data da inserire nel `$tw.config`."
+        },
+        "$:/language/Docs/ModuleTypes/filteroperator": {
+            "title": "$:/language/Docs/ModuleTypes/filteroperator",
+            "text": "I singoli metodi degli operatori di filtro."
+        },
+        "$:/language/Docs/ModuleTypes/global": {
+            "title": "$:/language/Docs/ModuleTypes/global",
+            "text": "Data globale da inserire in `$tw`."
+        },
+        "$:/language/Docs/ModuleTypes/isfilteroperator": {
+            "title": "$:/language/Docs/ModuleTypes/isfilteroperator",
+            "text": "Operandi per l'operatore di filtro ''is''."
+        },
+        "$:/language/Docs/ModuleTypes/macro": {
+            "title": "$:/language/Docs/ModuleTypes/macro",
+            "text": "Definizione macro JavaScript."
+        },
+        "$:/language/Docs/ModuleTypes/parser": {
+            "title": "$:/language/Docs/ModuleTypes/parser",
+            "text": "Parsers per differenti tipi di contenuto."
+        },
+        "$:/language/Docs/ModuleTypes/saver": {
+            "title": "$:/language/Docs/ModuleTypes/saver",
+            "text": "Savers per gestire i diversi metodi di salvataggio file dal browser."
+        },
+        "$:/language/Docs/ModuleTypes/startup": {
+            "title": "$:/language/Docs/ModuleTypes/startup",
+            "text": "Funzioni di avvio."
+        },
+        "$:/language/Docs/ModuleTypes/storyview": {
+            "title": "$:/language/Docs/ModuleTypes/storyview",
+            "text": "Vista cronologia per personalizzare l'animazione ed il comportamento del widget liste."
+        },
+        "$:/language/Docs/ModuleTypes/tiddlerdeserializer": {
+            "title": "$:/language/Docs/ModuleTypes/tiddlerdeserializer",
+            "text": "Converte i diversi tipi di contenuto in frammenti."
+        },
+        "$:/language/Docs/ModuleTypes/tiddlerfield": {
+            "title": "$:/language/Docs/ModuleTypes/tiddlerfield",
+            "text": "Definisce il comportamento di un singolo campo di un frammento."
+        },
+        "$:/language/Docs/ModuleTypes/tiddlermethod": {
+            "title": "$:/language/Docs/ModuleTypes/tiddlermethod",
+            "text": "Aggiunge metodi al prototipo `$tw.Tiddler`."
+        },
+        "$:/language/Docs/ModuleTypes/utils": {
+            "title": "$:/language/Docs/ModuleTypes/utils",
+            "text": "Aggiunge metodi a `$tw.utils`."
+        },
+        "$:/language/Docs/ModuleTypes/utils-node": {
+            "title": "$:/language/Docs/ModuleTypes/utils-node",
+            "text": "Aggiunge metodi specifici Node.js a `$tw.utils`."
+        },
+        "$:/language/Docs/ModuleTypes/widget": {
+            "title": "$:/language/Docs/ModuleTypes/widget",
+            "text": "Widgets che incapsulano e aggiornano il contenuto DOM."
+        },
+        "$:/language/Docs/ModuleTypes/wikimethod": {
+            "title": "$:/language/Docs/ModuleTypes/wikimethod",
+            "text": "Aggiunge metodi a `$tw.Wiki`."
+        },
+        "$:/language/Docs/ModuleTypes/wikirule": {
+            "title": "$:/language/Docs/ModuleTypes/wikirule",
+            "text": "Regole parser individuali del parser principale WikiText."
+        },
+        "$:/language/EditTemplate/Body/Hint": {
+            "title": "$:/language/EditTemplate/Body/Hint",
+            "text": "Utilizza il formato wiki per definire la formattazione, aggiungere immagini e caratteristiche dinamiche"
+        },
+        "$:/language/EditTemplate/Body/Placeholder": {
+            "title": "$:/language/EditTemplate/Body/Placeholder",
+            "text": "Digita il testo di questo frammento"
+        },
+        "$:/language/EditTemplate/Body/Preview/Button/Hide": {
+            "title": "$:/language/EditTemplate/Body/Preview/Button/Hide",
+            "text": "Nascondi preview"
+        },
+        "$:/language/EditTemplate/Body/Preview/Button/Show": {
+            "title": "$:/language/EditTemplate/Body/Preview/Button/Show",
+            "text": "Mostra preview"
+        },
+        "$:/language/EditTemplate/Fields/Add/Button": {
+            "title": "$:/language/EditTemplate/Fields/Add/Button",
+            "text": "Aggiungi"
+        },
+        "$:/language/EditTemplate/Fields/Add/Name/Placeholder": {
+            "title": "$:/language/EditTemplate/Fields/Add/Name/Placeholder",
+            "text": "Nome campo"
+        },
+        "$:/language/EditTemplate/Fields/Add/Prompt": {
+            "title": "$:/language/EditTemplate/Fields/Add/Prompt",
+            "text": "Aggiungi un nuovo campo:"
+        },
+        "$:/language/EditTemplate/Fields/Add/Value/Placeholder": {
+            "title": "$:/language/EditTemplate/Fields/Add/Value/Placeholder",
+            "text": "Valore campo"
+        },
+        "$:/language/EditTemplate/Tags/Add/Button": {
+            "title": "$:/language/EditTemplate/Tags/Add/Button",
+            "text": "Aggiungi"
+        },
+        "$:/language/EditTemplate/Tags/Add/Placeholder": {
+            "title": "$:/language/EditTemplate/Tags/Add/Placeholder",
+            "text": "Nome categoria"
+        },
+        "$:/language/EditTemplate/Type/Placeholder": {
+            "title": "$:/language/EditTemplate/Type/Placeholder",
+            "text": "Tipo contenuto"
+        },
+        "$:/language/EditTemplate/Type/Prompt": {
+            "title": "$:/language/EditTemplate/Type/Prompt",
+            "text": "Tipo:"
+        },
+        "$:/language/Docs/Fields/bag": {
+            "title": "$:/language/Docs/Fields/bag",
+            "text": "Il nome del contenitore da cui proviene un frammento"
+        },
+        "$:/language/Docs/Fields/caption": {
+            "title": "$:/language/Docs/Fields/caption",
+            "text": "Il testo che &egrave; visualizzato in un tab o in un pulsante"
+        },
+        "$:/language/Docs/Fields/color": {
+            "title": "$:/language/Docs/Fields/color",
+            "text": "Il codice CSS del colore associato ad un frammento"
+        },
+        "$:/language/Docs/Fields/component": {
+            "title": "$:/language/Docs/Fields/component",
+            "text": "Il nome del componente responsabile per un [[frammento di allarme|AlertMechanism]]"
+        },
+        "$:/language/Docs/Fields/current-tiddler": {
+            "title": "$:/language/Docs/Fields/current-tiddler",
+            "text": "Utilizzato per memorizzare nella cache il frammento top nella [[lista cronologia|HistoryMechanism]]"
+        },
+        "$:/language/Docs/Fields/created": {
+            "title": "$:/language/Docs/Fields/created",
+            "text": "La data in cui il frammento &egrave; stato creato"
+        },
+        "$:/language/Docs/Fields/creator": {
+            "title": "$:/language/Docs/Fields/creator",
+            "text": "Il nome della persona che ha creato il frammento"
+        },
+        "$:/language/Docs/Fields/dependents": {
+            "title": "$:/language/Docs/Fields/dependents",
+            "text": "Per un plugin, elenca i plugin dipendenti"
+        },
+        "$:/language/Docs/Fields/description": {
+            "title": "$:/language/Docs/Fields/description",
+            "text": "Il testo descrittivo per un plugin o per una modalit&agrave; a dialogo"
+        },
+        "$:/language/Docs/Fields/draft.of": {
+            "title": "$:/language/Docs/Fields/draft.of",
+            "text": "Per i frammenti bozza, contiene il titolo del frammento di cui questo &egrave; una bozza"
+        },
+        "$:/language/Docs/Fields/draft.title": {
+            "title": "$:/language/Docs/Fields/draft.title",
+            "text": "Per i frammenti bozza, contiene la proposta di nuovo titolo per il frammento"
+        },
+        "$:/language/Docs/Fields/footer": {
+            "title": "$:/language/Docs/Fields/footer",
+            "text": "Il testo del footer per un wizard"
+        },
+        "$:/language/Docs/Fields/hack-to-give-us-something-to-compare-against": {
+            "title": "$:/language/Docs/Fields/hack-to-give-us-something-to-compare-against",
+            "text": "Un campo di memoria temporanea utilizzato in [[$:/core/templates/static.content]]"
+        },
+        "$:/language/Docs/Fields/icon": {
+            "title": "$:/language/Docs/Fields/icon",
+            "text": "Il titolo del frammento che contiene l'icona associata con il frammento"
+        },
+        "$:/language/Docs/Fields/library": {
+            "title": "$:/language/Docs/Fields/library",
+            "text": "Se impostato su \"yes\" indica che il frammento deve essere salvato come una libreria ~JavaScript"
+        },
+        "$:/language/Docs/Fields/list": {
+            "title": "$:/language/Docs/Fields/list",
+            "text": "Una lista ordinata di titoli di frammenti associati con un frammento"
+        },
+        "$:/language/Docs/Fields/list-before": {
+            "title": "$:/language/Docs/Fields/list-before",
+            "text": "If set, the title of a tiddler before which this tiddler should be added to the ordered list of tiddler titles, or at the start of the list if this field is present but empty"
+        },
+        "$:/language/Docs/Fields/list-after": {
+            "title": "$:/language/Docs/Fields/list-after",
+            "text": "If set, the title of the tiddler after which this tiddler should be added to the ordered list of tiddler titles"
+        },
+        "$:/language/Docs/Fields/modified": {
+            "title": "$:/language/Docs/Fields/modified",
+            "text": "La data e l'ora in cui un frammento &egrave; stato modificato l'ultima volta"
+        },
+        "$:/language/Docs/Fields/modifier": {
+            "title": "$:/language/Docs/Fields/modifier",
+            "text": "Il titolo del frammento associato con la persona che ha modificato un frammento l'ultima volta"
+        },
+        "$:/language/Docs/Fields/name": {
+            "title": "$:/language/Docs/Fields/name",
+            "text": "Il nome leggibile associato con un frammento plugin"
+        },
+        "$:/language/Docs/Fields/plugin-priority": {
+            "title": "$:/language/Docs/Fields/plugin-priority",
+            "text": "Un valore numerico che indica la priorit&agrave; di un frammento plugin"
+        },
+        "$:/language/Docs/Fields/plugin-type": {
+            "title": "$:/language/Docs/Fields/plugin-type",
+            "text": "Il tipo di plugin di un frammento plugin"
+        },
+        "$:/language/Docs/Fields/revision": {
+            "title": "$:/language/Docs/Fields/revision",
+            "text": "La revisione del frammento mantenuta sul server"
+        },
+        "$:/language/Docs/Fields/released": {
+            "title": "$:/language/Docs/Fields/released",
+            "text": "La data di rilascio di un ~TiddlyWiki"
+        },
+        "$:/language/Docs/Fields/source": {
+            "title": "$:/language/Docs/Fields/source",
+            "text": "L'indirizzo URL sorgente associato con un frammento"
+        },
+        "$:/language/Docs/Fields/subtitle": {
+            "title": "$:/language/Docs/Fields/subtitle",
+            "text": "Il testo del sottotitolo per un wizard"
+        },
+        "$:/language/Docs/Fields/tags": {
+            "title": "$:/language/Docs/Fields/tags",
+            "text": "Una lista di categorie associate con un frammento"
+        },
+        "$:/language/Docs/Fields/text": {
+            "title": "$:/language/Docs/Fields/text",
+            "text": "Il corpo del testo di un frammento"
+        },
+        "$:/language/Docs/Fields/title": {
+            "title": "$:/language/Docs/Fields/title",
+            "text": "Il nome univoco di un frammento"
+        },
+        "$:/language/Docs/Fields/type": {
+            "title": "$:/language/Docs/Fields/type",
+            "text": "Il tipo di contenuto di un frammento"
+        },
+        "$:/language/Docs/Fields/version": {
+            "title": "$:/language/Docs/Fields/version",
+            "text": "Informazioni di versione per un plugin"
+        },
+        "$:/language/Filters/AllTiddlers": {
+            "title": "$:/language/Filters/AllTiddlers",
+            "text": "Tutti i frammenti eccetto quelli di sistema"
+        },
+        "$:/language/Filters/RecentTiddlers": {
+            "title": "$:/language/Filters/RecentTiddlers",
+            "text": "I frammenti modificati di recente"
+        },
+        "$:/language/Filters/AllTags": {
+            "title": "$:/language/Filters/AllTags",
+            "text": "Tutte le categorie eccetto quelle di sistema"
+        },
+        "$:/language/Filters/Missing": {
+            "title": "$:/language/Filters/Missing",
+            "text": "Frammenti mancanti"
+        },
+        "$:/language/Filters/Drafts": {
+            "title": "$:/language/Filters/Drafts",
+            "text": "Frammenti bozza"
+        },
+        "$:/language/Filters/Orphans": {
+            "title": "$:/language/Filters/Orphans",
+            "text": "Frammenti orfani"
+        },
+        "$:/language/Filters/SystemTiddlers": {
+            "title": "$:/language/Filters/SystemTiddlers",
+            "text": "Frammenti di sistema"
+        },
+        "$:/language/Filters/ShadowTiddlers": {
+            "title": "$:/language/Filters/ShadowTiddlers",
+            "text": "Frammenti nascosti"
+        },
+        "$:/language/Filters/OverriddenShadowTiddlers": {
+            "title": "$:/language/Filters/OverriddenShadowTiddlers",
+            "text": "Frammenti nascosti annullati"
+        },
+        "$:/language/Filters/SystemTags": {
+            "title": "$:/language/Filters/SystemTags",
+            "text": "Categorie di sistema"
+        },
+        "GettingStarted": {
+            "title": "GettingStarted",
+            "text": "Benvenuti in TiddlyWiki, un programma non lineare per scrivere web.\n\nPer iniziare, verifica prima di tutto di riuscire a salvare correttamente le modifiche al tuo wiki - leggi http://tiddlywiki.com/ per le istruzioni dettagliate.\n\nSuccessivamente puoi:\n\n* Creare nuovi frammenti utilizzando il pulsante '+' presente nella sidebar\n* Aprire il [[pannello di controllo|$:/ControlPanel]] utilizzando il pulsante 'ingranaggio' presente nella sidebar per personalizzare il tuo wiki\n** Bloccare la comparsa di questo messaggio modificando i frammenti di default elencati nel tab ''Impostazioni base''\n* Salvare le modifiche utilizzando il pulsante 'download' presente nella sidebar\n* Conoscere meglio la sintassi del [[WikiText|http://tiddlywiki.com/static/WikiText.html]]\n"
+        },
+        "$:/language/Help/default": {
+            "title": "$:/language/Help/default",
+            "text": "\\define commandTitle()\n$:/language/Help/$(command)$\n\\end\n```\nUtilizzo: tiddlywiki [<wikifolder>] [--<command> [<args>...]...]\n```\n\nComandi disponibili:\n\n<ul>\n<$list filter=\"[commands[]sort[title]]\" variable=\"command\">\n<li><$link to=<<commandTitle>>><$macrocall $name=\"command\" $type=\"text/plain\" $output=\"text/plain\"/></$link>: <$transclude tiddler=<<commandTitle>> field=\"description\"/></li>\n</$list>\n</ul>\n\nPer l'aiuto dettagliato su un comando:\n\n```\ntiddlywiki --help <command>\n```\n"
+        },
+        "$:/language/Help/help": {
+            "title": "$:/language/Help/help",
+            "description": "Display help for TiddlyWiki commands",
+            "text": "Visualizza il testo di help per un comando:\n\n```\n--help [<command>]\n```\n\nSe il nome del comando &egrave; omesso viene visualizzata la lista dei comandi disponibili.\n"
+        },
+        "$:/language/Help/init": {
+            "title": "$:/language/Help/init",
+            "description": "Initialise a new wiki folder",
+            "text": "Inizializza un [[WikiFolder|WikiFolders]] vuoto con una copia della specifica edizione.\n\n```\n--init <edition> [<edition> ...]\n```\n\nPer esempio::\n\n```\ntiddlywiki ./MyWikiFolder --init empty\n```\n\nNote:\n\n* Se necessario sar&agrave; creata la directory del wiki\n* Di default l'\"edizione\" &egrave; ''vuota''\n* Il comando init fallir&agrave; se la direcotry del wiki non &egrave; vuota\n* Il comando init rimuove qualsiasi definizione `includeWikis` nell'edizione del file `tiddlywiki.info`\n* Se sono specificate edizioni multiple, l'edizione inizializzata dopo sovrascrive tutti i file condivisi con le edizioni precedenti (il file finale `tiddlywiki.info` sar&agrave; copiato dall'ultima edizione)\n* `--editions` restituisce una lista delle edizioni disponibili\n"
+        },
+        "$:/language/Help/load": {
+            "title": "$:/language/Help/load",
+            "description": "Load tiddlers from a file",
+            "text": "Carica frammenti da file 2.x.x TiddlyWiki (`.html`), `.tiddler`, `.tid`, `.json` o altri file \n\n```\n--load <filepath>\n```\n\nPer caricare frrammenti da un TiddlyWiki criptato si deve prima specificare la password con il comando PasswordCommand. Per esempio:\n\n```\ntiddlywiki ./MyWiki --password pa55w0rd --load my_encrypted_wiki.html\n```\n"
+        },
+        "$:/language/Help/notfound": {
+            "title": "$:/language/Help/notfound",
+            "text": "Nessuna voce di aiuto"
+        },
+        "$:/language/Help/password": {
+            "title": "$:/language/Help/password",
+            "description": "Set a password for subsequent crypto operations",
+            "text": "Definisci una password per le successive operazioni di crittografia\n\n```\n--password <password>\n```\n\n"
+        },
+        "$:/language/Help/rendertiddler": {
+            "title": "$:/language/Help/rendertiddler",
+            "description": "Render an individual tiddler as a specified ContentType",
+            "text": "Presenta un frammento singolo secondo uno specifico ContentType, il default &egrave; `text/html` e lo salva con il nome file specificato:\n\n```\n--rendertiddler <title> <filename> [<type>]\n```\n"
+        },
+        "$:/language/Help/rendertiddlers": {
+            "title": "$:/language/Help/rendertiddlers",
+            "description": "Render tiddlers matching a filter to a specified ContentType",
+            "text": "Render a set of tiddlers matching a filter to separate files of a specified ContentType (defaults to `text/html`) and extension (defaults to `.html`).\n\n```\n--rendertiddlers <filter> <template> <pathname> [<type>] [<extension>]\n```\n\nPer esempio:\n\n```\n--rendertiddlers [!is[system]] $:/core/templates/static.tiddler.html ./static text/plain\n```\n"
+        },
+        "$:/language/Help/savetiddler": {
+            "title": "$:/language/Help/savetiddler",
+            "description": "Saves a raw tiddler to a file",
+            "text": "Salva un singolo frammento nel formato puro testo o binario con il nome file specificato. \n\n```\n--savetiddler <title> <filename>\n```\n"
+        },
+        "$:/language/Help/server": {
+            "title": "$:/language/Help/server",
+            "description": "Provides an HTTP server interface to TiddlyWiki",
+            "text": "Il server incluso in TiddlyWiki5 &egrave; molto semplice. Sebbene compatibile con TiddlyWeb, il server non supporta molte delle funzionalit&agrave; necessarie per un utilizzo affidabile su internet.\n\nAlla radice serve il rendering di un frammento specifico. Oltre la radice, serve frammenti singoli codificati in JSON e supporta le operazioni HTTP di base `GET`, `PUT` e `DELETE`.\n\n```\n--server <port> <roottiddler> <rendertype> <servetype> <username> <password> <host>\n```\n\nI parametri sono:\n\n* ''port'' - il numero di porta sui cui risponde il server  (default a \"8080\")\n* ''roottiddler'' - il frammento da servire alla radice (default a \"$:/core/save/all\") \n* ''rendertype'' - il tipo di contenuto con cui deve essere effettuato il render del frammento alla radice (default a \"text/plain\")\n* ''servetype'' - il tipo di contenuto con cui deve essere servito il frammento alla radice (default a \"text/html\")\n* ''username'' - il nome utente di default da utilizzare per firmare le modifiche\n* ''password'' - la password opzionale da utilizzare per l'autenticazione di base\n* ''host'' - il nome host opzionale da utilizzare per il server  (default a \"127.0.0.1\" ossia \"localhost\")\n\nSe il parametro password &egrave; specificato, il browser chieder&agrave; nome utente e password. Notare che la password &egrave; trasmessa in chiaro quindi questa implementazione non &egrave; adatta ad un uso generale.\n\nPer esempio:\n\n```\n--server 8080 $:/core/save/all text/plain text/html MyUserName passw0rd\n```\n\nPer eseguire istanze multiple di server TiddlyWiki nello stesso tempo, &egrave; necessario definire per ciascuno una porta specifica.\n"
+        },
+        "$:/language/Help/verbose": {
+            "title": "$:/language/Help/verbose",
+            "description": "Triggers verbose output mode",
+            "text": "Attiva l'output esteso utile per il debug \n\n```\n--verbose\n```\n"
+        },
+        "$:/language/Help/version": {
+            "title": "$:/language/Help/version",
+            "description": "Displays the version number of TiddlyWiki",
+            "text": "Visualizza la versione di TiddlyWiki.\n\n```\n--version\n```\n"
+        },
+        "$:/language/RecentChanges/DateFormat": {
+            "title": "$:/language/RecentChanges/DateFormat",
+            "text": "DDth MMM YYYY"
+        },
+        "$:/language/CloseAll/Button": {
+            "title": "$:/language/CloseAll/Button",
+            "text": "Chiudi tutto"
+        },
+        "$:/language/MissingTiddler/Hint": {
+            "title": "$:/language/MissingTiddler/Hint",
+            "text": "Frammento mancante \"<$text text=<<currentTiddler>>/>\" - clicca {{$:/core/images/edit-button}} per crearlo"
+        },
+        "$:/language/SystemTiddler/Tooltip": {
+            "title": "$:/language/SystemTiddler/Tooltip",
+            "text": "Questo &egrave; un frammento di sistema"
+        },
+        "$:/language/ClassicWarning/Hint": {
+            "title": "$:/language/ClassicWarning/Hint",
+            "text": "Questo frammento &egrave; scritto nel formato testo wiki di TiddlyWiki Classic e non &egrave; pienamente compatibile con TiddlyWiki versione 5. Vedi http://tiddlywiki.com/static/Upgrading.html per maggiori dettagli a riguardo "
+        },
+        "$:/language/ClassicWarning/Upgrade/Caption": {
+            "title": "$:/language/ClassicWarning/Upgrade/Caption",
+            "text": "Aggiorna"
+        },
+        "$:/language/Modals/Download": {
+            "title": "$:/language/Modals/Download",
+            "type": "text/vnd.tiddlywiki",
+            "subtitle": "Download changes",
+            "footer": "<$button message=\"tm-close-tiddler\">Chiudi</$button>",
+            "help": "http://tiddlywiki.com/static/DownloadingChanges.html",
+            "text": "Il tuo browser supporta solo il salvataggio manuale.\n\nPer salvare le modifiche al tuo wiki, clicca con il tasto destro del mouse sul link di download mostrato sotto e seleziona \"Download file\" o \"Save file\", e poi scegli la cartella ed il nome del file.\n\n//Puoi velocizzare l'operazione cliccando il link con il tasto control (Windows) o il tasto options/alt (Mac OS X). Non ti verr&agrave; chiesto il nome della cartella e del file, ma il tuo browser non &egrave; in grado di assegnare un nome riconoscibile -- potrebbe essere necessario rinominare il file per aggiungere l'estensione `.html` prima di poter fare qualcosa di utile.//\n\nSugli smartphone che non consentono di scaricare file, puoi memorizzare nei bookmark il link, successivamente sincronizzare i bookmark con un desktop computer su cui poi salvare il file normalmente.\n"
+        },
+        "$:/language/Modals/SaveInstructions": {
+            "title": "$:/language/Modals/SaveInstructions",
+            "type": "text/vnd.tiddlywiki",
+            "subtitle": "Save your work",
+            "footer": "<$button message=\"tm-close-tiddler\">Chiudi</$button>",
+            "help": "http://tiddlywiki.com/static/SavingChanges.html",
+            "text": "Le modifiche a questo wiki devono essere salvate come un file ~TiddlyWiki HTML.\n\n!!! Browser su desktop\n\n# Seleziona ''Save As'' dal menu ''File''\n# Scegli la posizione ed un nome file\n#* Alcuni browser richiedono che sia indicato esplicitamente che il file deve essere salvato con il formato ''Webpage, solo HTML'' o qualcosa di simile\n# Chiudi questo tab\n\n!!! Browser su smartphone\n\n# Crea un bookmark per questa pagina\n#* Se hai attivato iCloud o Google Sync allora il bookmark sar&agrave; automaticamente sincronizzato con il tuo desktop dove potrai aprire il link e salvare il wiki come sopra\n# Chiudi questo tab\n\n//Se apri ancora il bookmark con Mobile Safari vedrai ancora questo messaggio. Se desideri andare avanti ed utilizzare il file, clicca semplicemente il bottone ''close'' sotto//\n"
+        },
+        "$:/language/Notifications/Save/Done": {
+            "title": "$:/language/Notifications/Save/Done",
+            "text": "Wiki salvato"
+        },
+        "$:/language/Notifications/Save/Starting": {
+            "title": "$:/language/Notifications/Save/Starting",
+            "text": "Inizio salvataggio wiki"
+        },
+        "$:/language/Search/Advanced/Matches": {
+            "title": "$:/language/Search/Advanced/Matches",
+            "text": "//<small><<resultCount>> Corrispondenze</small>//"
+        },
+        "$:/language/Search/Filter/Caption": {
+            "title": "$:/language/Search/Filter/Caption",
+            "text": "Filtro"
+        },
+        "$:/language/Search/Filter/Hint": {
+            "title": "$:/language/Search/Filter/Hint",
+            "text": "Cerca attraverso un [[filtro|http://tiddlywiki.com/static/Filters.html]]"
+        },
+        "$:/language/Search/Matches": {
+            "title": "$:/language/Search/Matches",
+            "text": "//<small><<resultCount>> Corrispondenze</small>//"
+        },
+        "$:/language/Search/Shadows/Caption": {
+            "title": "$:/language/Search/Shadows/Caption",
+            "text": "Nascosti"
+        },
+        "$:/language/Search/Shadows/Hint": {
+            "title": "$:/language/Search/Shadows/Hint",
+            "text": "Cerca frammenti nascosti"
+        },
+        "$:/language/Search/System/Caption": {
+            "title": "$:/language/Search/System/Caption",
+            "text": "Sistema"
+        },
+        "$:/language/Search/System/Hint": {
+            "title": "$:/language/Search/System/Hint",
+            "text": "Cerca frammenti di sistema"
+        },
+        "$:/language/SideBar/All/Caption": {
+            "title": "$:/language/SideBar/All/Caption",
+            "text": "Tutti"
+        },
+        "$:/language/SideBar/Drafts/Caption": {
+            "title": "$:/language/SideBar/Drafts/Caption",
+            "text": "Bozza"
+        },
+        "$:/language/SideBar/Missing/Caption": {
+            "title": "$:/language/SideBar/Missing/Caption",
+            "text": "Mancanti"
+        },
+        "$:/language/SideBar/More/Caption": {
+            "title": "$:/language/SideBar/More/Caption",
+            "text": "Pi&ugrave;"
+        },
+        "$:/language/SideBar/Open/Caption": {
+            "title": "$:/language/SideBar/Open/Caption",
+            "text": "Apri"
+        },
+        "$:/language/SideBar/Orphans/Caption": {
+            "title": "$:/language/SideBar/Orphans/Caption",
+            "text": "Orfani"
+        },
+        "$:/language/SideBar/Recent/Caption": {
+            "title": "$:/language/SideBar/Recent/Caption",
+            "text": "Recenti"
+        },
+        "$:/language/SideBar/Shadows/Caption": {
+            "title": "$:/language/SideBar/Shadows/Caption",
+            "text": "Nascosti"
+        },
+        "$:/language/SideBar/System/Caption": {
+            "title": "$:/language/SideBar/System/Caption",
+            "text": "Sistema"
+        },
+        "$:/language/SideBar/Tags/Caption": {
+            "title": "$:/language/SideBar/Tags/Caption",
+            "text": "Categorie"
+        },
+        "$:/language/SideBar/Tags/Untagged/Caption": {
+            "title": "$:/language/SideBar/Tags/Untagged/Caption",
+            "text": "Non categorizzati"
+        },
+        "$:/language/SideBar/Tools/Caption": {
+            "title": "$:/language/SideBar/Tools/Caption",
+            "text": "Strumenti"
+        },
+        "$:/language/SideBar/Types/Caption": {
+            "title": "$:/language/SideBar/Types/Caption",
+            "text": "Tipi"
+        },
+        "$:/SiteSubtitle": {
+            "title": "$:/SiteSubtitle",
+            "text": "Un programma personale per scrivere web in modo non lineare"
+        },
+        "$:/SiteTitle": {
+            "title": "$:/SiteTitle",
+            "text": "Il mio ~TiddlyWiki"
+        },
+        "$:/language/TiddlerInfo/Advanced/Caption": {
+            "title": "$:/language/TiddlerInfo/Advanced/Caption",
+            "text": "Avanzate"
+        },
+        "$:/language/TiddlerInfo/Advanced/PluginInfo/Empty/Hint": {
+            "title": "$:/language/TiddlerInfo/Advanced/PluginInfo/Empty/Hint",
+            "text": "Nessuno"
+        },
+        "$:/language/TiddlerInfo/Advanced/PluginInfo/Heading": {
+            "title": "$:/language/TiddlerInfo/Advanced/PluginInfo/Heading",
+            "text": "Dettagli del plugin"
+        },
+        "$:/language/TiddlerInfo/Advanced/PluginInfo/Hint": {
+            "title": "$:/language/TiddlerInfo/Advanced/PluginInfo/Hint",
+            "text": "Questo plugin contiene i seguenti frammenti nascosti:"
+        },
+        "$:/language/TiddlerInfo/Advanced/ShadowInfo/Heading": {
+            "title": "$:/language/TiddlerInfo/Advanced/ShadowInfo/Heading",
+            "text": "Stato nascosto"
+        },
+        "$:/language/TiddlerInfo/Advanced/ShadowInfo/NotShadow/Hint": {
+            "title": "$:/language/TiddlerInfo/Advanced/ShadowInfo/NotShadow/Hint",
+            "text": "Il frammento <$link to=<<infoTiddler>>><$text text=<<infoTiddler>>/></$link> non &egrave; un frammento nascosto"
+        },
+        "$:/language/TiddlerInfo/Advanced/ShadowInfo/Shadow/Hint": {
+            "title": "$:/language/TiddlerInfo/Advanced/ShadowInfo/Shadow/Hint",
+            "text": "Il frammento <$link to=<<infoTiddler>>><$text text=<<infoTiddler>>/></$link> &egrave; un frammento nascosto"
+        },
+        "$:/language/TiddlerInfo/Advanced/ShadowInfo/Shadow/Source": {
+            "title": "$:/language/TiddlerInfo/Advanced/ShadowInfo/Shadow/Source",
+            "text": "&Egrave; definito nel plugin <$link to=<<pluginTiddler>>><$text text=<<pluginTiddler>>/></$link>"
+        },
+        "$:/language/TiddlerInfo/Advanced/ShadowInfo/OverriddenShadow/Hint": {
+            "title": "$:/language/TiddlerInfo/Advanced/ShadowInfo/OverriddenShadow/Hint",
+            "text": "&Egrave; annullato da un frammento ordinario"
+        },
+        "$:/language/TiddlerInfo/Fields/Caption": {
+            "title": "$:/language/TiddlerInfo/Fields/Caption",
+            "text": "Campi"
+        },
+        "$:/language/TiddlerInfo/List/Caption": {
+            "title": "$:/language/TiddlerInfo/List/Caption",
+            "text": "Lista"
+        },
+        "$:/language/TiddlerInfo/List/Empty": {
+            "title": "$:/language/TiddlerInfo/List/Empty",
+            "text": "Questo frammento non ha una lista"
+        },
+        "$:/language/TiddlerInfo/Listed/Caption": {
+            "title": "$:/language/TiddlerInfo/Listed/Caption",
+            "text": "Elencato"
+        },
+        "$:/language/TiddlerInfo/Listed/Empty": {
+            "title": "$:/language/TiddlerInfo/Listed/Empty",
+            "text": "Questo frammento non &egrave; elencato da nessun altro"
+        },
+        "$:/language/TiddlerInfo/References/Caption": {
+            "title": "$:/language/TiddlerInfo/References/Caption",
+            "text": "Riferimenti"
+        },
+        "$:/language/TiddlerInfo/References/Empty": {
+            "title": "$:/language/TiddlerInfo/References/Empty",
+            "text": "Nessun frammento &egrave; collegato a questo"
+        },
+        "$:/language/TiddlerInfo/Tagging/Caption": {
+            "title": "$:/language/TiddlerInfo/Tagging/Caption",
+            "text": "Categorizza"
+        },
+        "$:/language/TiddlerInfo/Tagging/Empty": {
+            "title": "$:/language/TiddlerInfo/Tagging/Empty",
+            "text": "Non ci sono frammenti categorizzati con questo"
+        },
+        "$:/language/Docs/Types/application/json": {
+            "title": "$:/language/Docs/Types/application/json",
+            "description": "JSON data",
+            "name": "application/json"
+        },
+        "$:/language/Docs/Types/application/x-tiddler-dictionary": {
+            "title": "$:/language/Docs/Types/application/x-tiddler-dictionary",
+            "description": "Data dictionary",
+            "name": "application/x-tiddler-dictionary"
+        },
+        "$:/language/Docs/Types/image/gif": {
+            "title": "$:/language/Docs/Types/image/gif",
+            "description": "GIF image",
+            "name": "image/gif"
+        },
+        "$:/language/Docs/Types/image/jpeg": {
+            "title": "$:/language/Docs/Types/image/jpeg",
+            "description": "JPEG image",
+            "name": "image/jpeg"
+        },
+        "$:/language/Docs/Types/image/png": {
+            "title": "$:/language/Docs/Types/image/png",
+            "description": "PNG image",
+            "name": "image/png"
+        },
+        "$:/language/Docs/Types/image/svg+xml": {
+            "title": "$:/language/Docs/Types/image/svg+xml",
+            "description": "Structured Vector Graphics image",
+            "name": "image/svg+xml"
+        },
+        "$:/language/Docs/Types/image/x-icon": {
+            "title": "$:/language/Docs/Types/image/x-icon",
+            "description": "ICO format icon file",
+            "name": "image/x-icon"
+        },
+        "$:/language/Docs/Types/text/css": {
+            "title": "$:/language/Docs/Types/text/css",
+            "description": "Static stylesheet",
+            "name": "text/css"
+        },
+        "$:/language/Docs/Types/text/plain": {
+            "title": "$:/language/Docs/Types/text/plain",
+            "description": "Plain text",
+            "name": "text/plain"
+        },
+        "$:/language/Docs/Types/text/vnd.tiddlywiki": {
+            "title": "$:/language/Docs/Types/text/vnd.tiddlywiki",
+            "description": "TiddlyWiki version 5 wikitext",
+            "name": "text/vnd.tiddlywiki"
+        },
+        "$:/language/Docs/Types/text/x-tiddlywiki": {
+            "title": "$:/language/Docs/Types/text/x-tiddlywiki",
+            "description": "TiddlyWiki Classic wikitext",
+            "name": "text/x-tiddlywiki"
+        },
+        "$:/languages/it-IT/icon": {
+            "title": "$:/languages/it-IT/icon",
+            "type": "image/svg+xml",
+            "text": "<?xml version=\"1.0\" standalone=\"no\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg \n\theight=\"1000\" \n\twidth=\"1500\" \n\tversion=\"1.1\" \n\tviewBox=\"0 0 3 2\" \n\txmlns=\"http://www.w3.org/2000/svg\" \n\txmlns:xlink=\"http://www.w3.org/1999/xlink\">\n\t<desc>Bandiera della Repubblica Italiana PMS 20060414</desc>\n<!--\n\tfrom http://commons.wikimedia.org/wiki/Image:Bandiera_della_Repubblica_Italiana_PMS_20060414.svg\n\tthis text is in the public domain\n-->\n\t<rect \n\t\tfill=\"#009246\" \n\t\theight=\"2\" \n\t\twidth=\"1\" />\n\t<rect \n\t\tfill=\"#f1f2f1\" \n\t\theight=\"2\" \n\t\twidth=\"1\" \n\t\tx=\"1\" />\n\t<rect \n\t\tfill=\"#ce2b37\" \n\t\theight=\"2\" \n\t\twidth=\"1\" \n\t\tx=\"2\" />\n</svg>"
+        }
+    }
+}

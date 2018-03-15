@@ -1,0 +1,11 @@
+background-color: #A7FF7B
+created: 20180315134634388
+modified: 20180315134634388
+title: ServerSync
+type: text/vnd.tiddlywiki
+
+! ~TiddlyWiki Server Synchronisation
+
+{{Server Architecture.svg}}
+
+The same ''syncer'' module is used in the browser and the server.

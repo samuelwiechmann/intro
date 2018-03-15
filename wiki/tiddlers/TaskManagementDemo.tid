@@ -1,0 +1,17 @@
+background-color: #d1caee
+created: 20180315134634364
+modified: 20180315134634364
+title: TaskManagementDemo
+type: text/vnd.tiddlywiki
+
+! Task Management Demo
+
+```
+<$list filter="[!has[draft.of]tag[task]!tag[done]sort[created]]">
+
+<$checkbox tag="done"> <$link to={{!!title}}><$view field="title"/></$link></$checkbox>
+
+</$list>
+```
+
+See http://tiddlywiki.com/#TaskManagementExample
