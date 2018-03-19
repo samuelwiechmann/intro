@@ -1,17 +1,16 @@
 background-color: #E7EDEA
 created: 20180318112608781
-modified: 20180318113326086
+modified: 20180319111226716
 tags: 
 title: Welcome
+tmap.id: 5a68a2df-5370-40d6-b2e8-0d3ddc33d8a3
 type: text/vnd.tiddlywiki
 
 <br>
 <br>
 
-! Welcome!
+! ''Welcome''!
 
-!! This is the introduction <br> to my [[Website|https://samuelwiechmann.github.io/understand2/]].
+!! The purpose of this [[Website|https://samuelwiechmann.github.io/understand2/]] is to <br> structure topics and ideas. <br> __And yours too, if you want!__ 
 
-!!! The purpose of this page is <br> to organize my thoughts and resources. <br> And yours too, if you want! 
-
-!!! There are six main categories of topics. <br><br> Here they come...
+!!! It uses 6 main topics to colour the nodes. <br> They are the following: 
