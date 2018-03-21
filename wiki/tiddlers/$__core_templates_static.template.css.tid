@@ -1,0 +1,8 @@
+created: 20180321093200672
+modified: 20180321093202644
+title: $:/core/templates/static.template.css
+type: text/vnd.tiddlywiki
+
+{{$:/boot/boot.css||$:/core/templates/plain-text-tiddler}}
+
+{{$:/core/ui/PageStylesheet||$:/core/templates/wikified-tiddler}}
